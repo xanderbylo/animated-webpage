@@ -22,3 +22,33 @@ svg {
     display: block;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
+
+.container {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.content {
+    color: white;
+    text-align: center;
+
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 0;
+        font-weight: normal;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    .text-reveal {
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: all 1.5s;
+        transform: translateY(-3em);
+    }
+}
