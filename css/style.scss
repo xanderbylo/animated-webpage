@@ -52,3 +52,27 @@ svg {
         transform: translateY(-3em);
     }
 }
+
+.locations-container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+
+    .info {
+        background: white;
+        padding: 3em;
+        position: relative;
+        margin-top: -.5em;
+
+        .title {
+            font-size: 2rem;
+            margin-top: -5.5em;
+            margin-bottom: 2.5em;
+            font-weight: bold;
+
+            span {
+                display: block;
+            }
+        }
+    }
+}
