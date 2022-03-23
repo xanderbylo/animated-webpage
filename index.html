@@ -53,7 +53,8 @@
         let tl = gsap.timeline({defaults: { ease: Expo.easeOut }});
 
         tl.from('.bg', { scale: 0.6, duration: 2, opacity: 0, delay: 0.2 })
-            .to('.text-reveal', { clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)', y:0, stagger: .3, duration: 1 }, "-=2.9" )
+            .to('.text-reveal', { clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)', y:0, stagger: .3, duration: 1 }, "-=2.9")
+            .to('.text-reveal', { clipPath: 'polygon(0 0, 100% 0, 100% 0, 0% 0%)', y: -200, duration: .2, delay: .5 })
 
     </script>
 </body>
