@@ -6,7 +6,7 @@ This is an animated webpage built following the [DesignCourse](https://designcou
 
 ## :computer: Live link
 
-[animated-webpage](https://xanderbylo.github.io/html-and-css-crash-course/)
+[animated-webpage](https://xanderbylo.github.io/animated-webpage/)
 
 ## :floppy_disk: Technologies
 
@@ -22,7 +22,11 @@ This is an animated webpage built following the [DesignCourse](https://designcou
 
 ## :bulb: Things I learnt
 
-
+* How to animate on page load using GSAP
 
 ## :page_facing_up: Credits
 
+* background.jpg by [FromSoftware](https://www.fromsoftware.jp/ww/) on [IGDB](https://www.igdb.com/games/elden-ring/presskit)
+* 1.png by [FromSoftware](https://www.fromsoftware.jp/ww/) on [IGDB](https://www.igdb.com/games/elden-ring/presskit)
+* 2.jpg by [FromSoftware](https://www.fromsoftware.jp/ww/) on [IGDB](https://www.igdb.com/games/elden-ring/presskit)
+* 3.jpg by [FromSoftware](https://www.fromsoftware.jp/ww/) on [IGDB](https://www.igdb.com/games/elden-ring/presskit)
